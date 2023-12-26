@@ -1,0 +1,122 @@
+\documentclass{article}
+\usepackage{graphicx}
+\begin{document}
+
+\title{My Document}
+\author{karim mostafa
+marwan mohamed saleh 
+yousif yahya }
+
+\maketitle
+
+\begin{abstract}
+
+This is the abstract of my document. This is the abstract of my document. This is the abstract of my document. This is the abstract of my document. This is the abstract of my document. This is the abstract of my document. This is the abstract of my document. This is the abstract of my document. 
+
+\end{abstract}
+
+\section{Introduction}
+
+This is the first paragraph. This is the first paragraph. This is the first paragraph. This is the first paragraph. This is the first paragraph. This is the first paragraph. This is the first paragraph. This is the first paragraph. This is the first paragraph. This is the first paragraph. This is the first paragraph. This is the first paragraph. This is the first paragraph. This is the first paragraph. This is the first paragraph. This is the first paragraph. This is the first paragraph. This is the first paragraph. This is the first paragraph. 
+
+This is the second paragraph. This is the second paragraph. This is the second paragraph. This is the second paragraph. This is the second paragraph. This is the second paragraph. This is the second paragraph. This is the second paragraph. This is the second paragraph. This is the second paragraph. This is the second paragraph. This is the second paragraph. This is the second paragraph. This is the second paragraph. This is the second paragraph. This is the second paragraph. 
+
+\section{Related work}
+
+In \cite{yu2021}, the authors used ... and enhanced ... which is similar to \cite{perov2020}. In \cite{li2020, kim2018}, the authors proposed a novel method to ... and .... Finally in \cite{caldelli2021}, the authors used... which achieved...
+
+This is an un-ordered list. This is an un-ordered list. This is an un-ordered list. This is an un-ordered list. This is an un-ordered list. This is an un-ordered list. This is an un-ordered list. This is an un-ordered list.
+
+\begin{itemize}
+\item This is the first item.
+\item This is the second item.
+\item This is the third item.
+\end{itemize}
+
+This is an ordered list. This is an ordered list. This is an ordered list. This is an ordered list. This is an ordered list. This is an ordered list. This is an ordered list. This is an ordered list. This is an ordered list. 
+
+\begin{enumerate}
+\item This is the first item.
+\item This is the second item.
+\item This is the third item.
+\end{enumerate}
+
+\subsection{Deep learning}
+
+Convolutional neural networks are one type of deep learning methods. Figure \ref{fig:cnn-architecture} shows an example CNN architecture. Also figure \ref{fig:another-cnn} shows another CNN architecture.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\linewidth]{images/cnn.png}
+  \caption{This is the caption of my first figure.}
+  \label{fig:cnn-architecture}
+\end{figure} 
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\linewidth]{images/cnn2.png}
+  \caption{This is the caption of my second figure.}
+  \label{fig:another-cnn}
+\end{figure} 
+
+\subsection{Computer vision}
+
+We talk about previous works in computer vision. 
+
+\section{Proposed method}
+
+We describe our method in details. Equation \ref{eq:euclidean-distance} shows how we calculate Euclidean distance. Equation \ref{eq:random-equation} is just a random equation to illustrate how we write equations. Also $x_i = z_i^2$ is an inline equation.
+
+\begin{equation}
+\label{eq:euclidean-distance}
+D = \sqrt{ (x_2 - x_1)^2 + (y_2 - y_1)^2 }
+\end{equation}
+
+\begin{equation}
+\label{eq:random-equation}
+\int e^{x+1} dx = \sqrt{\sum_{i=1}^{n} \frac{x_i+1}{y_i+2}}
+\end{equation}
+
+
+
+\section{Results and discussion}
+
+Our results outperform state of the art methods. Table \ref{table:results} shows our results.
+
+\begin{table}
+\centering
+\caption{Results of non-existing methods on a non-existing dataset}
+\label{table:results}
+\begin{tabular}{r | c r}
+	\hline
+	No. & Method & Accuracy \\
+	\hline
+	1 & Some\_Method & 87\% \\
+	2 & Another method & 82\% \\
+	3 & Method 3 & 85\% \\
+	4 & \textbf{Method 4} & \textbf{93}\% \\
+	\hline
+\end{tabular}
+\end{table}
+
+\section{Conclusion}
+
+We conclude our paper here.
+
+\begin{thebibliography}{00}
+
+\bibitem{yu2021} P. Yu, Z. Xia, J. Fei and Y. Lu, "A Survey on Deepfake Video Detection", IET Biometrics, 2021. Available: 10.1049/bme2.12031.
+
+\bibitem{perov2020} Perov et al., "DeepFaceLab: A simple, flexible and extensible face swapping framework", arXiv:2005.05535, 2020. Available: https://arxiv.org/abs/2005.05535.
+
+\bibitem{li2020} L. Li, J. Bao, H. Yang, D. Chen and F. Wen, "FaceShifter: Towards High Fidelity And Occlusion Aware Face Swapping", arXiv:1912.13457, 2020. Available: https://arxiv.org/abs/1912.13457.
+
+\bibitem{kim2018} H. Kim et al., "Deep video portraits", ACM Transactions on Graphics, vol. 37, no. 4, pp. 1-14, 2018. Available: 10.1145/3197517.3201283.
+
+\bibitem{caldelli2021} R. Caldelli, L. Galteri, I. Amerini and A. Del Bimbo, "Optical Flow based CNN for detection of unlearnt deepfake manipulations", Pattern Recognition Letters, vol. 146, pp. 31-37, 2021. Available: 10.1016/j.patrec.2021.03.005.
+
+\end{thebibliography}
+
+\end{document}
+
+
