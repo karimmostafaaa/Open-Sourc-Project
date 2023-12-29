@@ -1,3 +1,7 @@
 # Open-Sourc-Project
-studend
-project of image 
+Web Project :
+small web project have 3 page 
+index 
+about 
+contact us 
+
